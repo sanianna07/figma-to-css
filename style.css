@@ -21,9 +21,9 @@
 
 .nav-bar-list-right{
     display: flex;
-   gap:  12px;
-   align-items: center;
-   justify-content: space-between;
+    gap:  12px;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-link-text{
    font-family: "Inter",sans-serif;
@@ -43,4 +43,38 @@
     align-items: center;
     padding: 0 20px;
     margin: auto;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+   
+    margin: 100px auto auto;
+    
+}
+.hero-title{
+   
+    font-family: 'Inter'sans-serif;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 98px;
+    color: #18191F;
+    margin: 70px;
+}
+.hero-content{
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-button{
+    width: 154px;
+    height: 48px;
+    padding: 12px 32px 12px 32px;
+    background: #8C30F5;
+    color: #FFFFFF;
+   
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
 }
